@@ -2,13 +2,13 @@
 layout: home
 sidebar: false
 
-title: Awaiting Story 43
+title: 瓜三楚水凄凉地
 titleTemplate: 记录回忆，知识和畅想地图的地方
 
 hero:
   name: g~Nj$3J2^
   text: 记录回忆，知识和畅想地图的地方
-  tagline: Awaiting Story 43 「知识库」
+  tagline: 瓜三楚水凄凉地 「知识库」
   image:
     src: /logo.svg
     alt: Vitest
