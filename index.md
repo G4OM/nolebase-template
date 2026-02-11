@@ -1,8 +1,8 @@
 ---
 layout: home
-sidebar: true
+sidebar: false
 title: 瓜三楚水凄凉地
-titleTemplate: 记录
+titleTemplate: 记录回忆，知识和畅想地图的地方
 hero:
   name: g~Nj$3J2^
   text: 记录回忆，知识和畅想地图的地方
