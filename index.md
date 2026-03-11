@@ -2,7 +2,7 @@
 layout: home
 sidebar: false
 title: 瓜三楚水凄凉地
-titleTemplate: 记录知识
+titleTemplate: 个人网站
 hero:
   name: g~Nj$3J2^
   text: 记录知识
