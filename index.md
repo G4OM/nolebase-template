@@ -1,7 +1,7 @@
 ---
 layout: home
 sidebar: true
-title: 瓜三楚水凄凉地
+title: MELON-Repository
 titleTemplate: 个人网站
 hero:
   name: 瓜田·知识库
