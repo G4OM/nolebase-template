@@ -8,7 +8,7 @@ hero:
   text: 瓜田避难所
   tagline: 瓜三楚水凄凉地 「知识库」
   image:
-    src: /fanglogo.svg
+    src: /mstile-310x310.png
     alt: Vitest
   actions:
     - theme: brand
