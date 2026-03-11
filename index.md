@@ -1,6 +1,6 @@
 ---
 layout: home
-sidebar: false
+sidebar: true
 title: 瓜三楚水凄凉地
 titleTemplate: 个人网站
 hero:
