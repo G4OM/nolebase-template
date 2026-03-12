@@ -1,12 +1,12 @@
 ---
 layout: home
 sidebar: true
-title: MELON-Repository
+title: MELON-REPOSITORY
 titleTemplate: 个人网站
 hero:
-  name: 瓜田·知识库
-  text: 临时避难所
-  tagline: 又名 「瓜三楚水凄凉地」
+  name: MELON-REPOSITORY
+  text: Live in the world
+  tagline: 怪生无雨都张伞，不是遮头是使风。
   image:
     src: /mstile-310x310.png
     alt: Vitest
