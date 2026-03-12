@@ -4,7 +4,7 @@ sidebar: true
 title: MELON-REPOSITORY
 titleTemplate: 个人网站
 hero:
-  name: Louis U+216D ➜
+  name: ➜
   text: Live in the world
   tagline: 怪生无雨都张伞，不是遮头是使风。
   image:
