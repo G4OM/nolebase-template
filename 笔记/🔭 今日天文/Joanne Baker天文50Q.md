@@ -1,6 +1,5 @@
 ---
 tags:
-  - 天文
 comment: false
 ---
 - 行星定义

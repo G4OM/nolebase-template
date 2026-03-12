@@ -1,14 +1,25 @@
-venv 是 Python 内置的虚拟环境工具，用于创建一个独立的 Python 运行环境。每个虚拟环境都有自己的 Python 解释器、标准库和第三方库，与全局 Python 环境及其他虚拟环境隔离，从而避免不同项目间的依赖冲突。
+Python 虚拟环境（Virtual Environment）Python 3.3+ 自带<br>
+**venv**创建一个虚拟环境，实际上它只是一个带有几个shell脚本和一个指向Python解释器的链接的文件夹`.venv`激活环境后，所有安装的库都存储在这个文件夹中。<br>
 
-venv 文件夹内外文件的关系
+虚拟环境可以保持项目的隔离。每个程序都需要一定的环境设置才能干净地运行。而且在大多数情况下，操作系统的环境（主要是 Linux）会干扰应用程序的环境依赖。<br>
 
-- 内部（venv 文件夹）：包含了运行项目所需的 Python 解释器和所有依赖包。激活虚拟环境后，python 和 pip 命令都会指向这个内部的解释器和包管理工具，安装的第三方包都会被放在 lib/pythonX.X/site-packages/ 中。
-- 外部（项目代码）：通常指你的项目源代码、配置文件、测试文件等。这些文件位于虚拟环境文件夹之外，与 venv 同层或更深层目录。
+再者，使用虚拟环境可以为项目安装特定的库、选择特定版本的Python。通过在当前环境中运行“`pip freeze > requirements.txt`”来创建一个`requirements.txt`文件，文件将包含运行项目所需的所有库。
 
-使用示例
+---
 
-1. 创建虚拟环境：python -m venv myenv
-2. 激活环境：source myenv/bin/activate（Linux/macOS）或 myenv\Scripts\activate（Windows）
-3. 在激活的环境中安装依赖：pip install requests
-4. 运行外部项目代码：python /path/to/project/main.py
-5. 退出环境：deactivate
+1. 不移动虚拟环境。只移动代码和资源/配置文件。
+
+2. 创建requirements.txt文件，这样会很容易重建虚拟环境。
+
+3. 使用git作为代码管理工具移动代码。使用GitHub和GitLab作仓库。
+
+---
+
+>创建虚拟环境：在**项目根目录**运行 `python -m venv .venv`。
+
+>激活环境：<br>
+>    Windows: `.venv\Scripts\activate`<br> 
+>    macOS/Linux: `source .venv/bin/activate`
+
+>退出环境：运行 `deactivate` 命令。
+---
