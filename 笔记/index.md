@@ -2,10 +2,4 @@
 comment: false
 tags:
 ---
-![[og.png]]
-
--- --
-
-
-
-
+![[public/og.png]]
