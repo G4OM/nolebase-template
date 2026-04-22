@@ -1,0 +1,9 @@
+- 变量星（变星）光变曲线分析
+- 系外行星（exoplanet）检测（Transit方法）
+- 哈勃关系（宇宙膨胀）回归分析
+-- --
+- 星系分类（Galaxy classification）
+- 星形成率 vs 环境
+-- --
+- 贝叶斯层级模型（Hierarchical Model）
+- 宇宙学参数估计（Cosmology）
